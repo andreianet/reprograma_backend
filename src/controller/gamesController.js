@@ -3,9 +3,7 @@ const jogos = require('../models/games.json')
 const obterJogos = (req, res) => {
     res.statusCode = 200
     return res.json(jogos)
-}
-
- 
+} 
 /*
 let jogosSemRepetir = []
 
